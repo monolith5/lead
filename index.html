@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>補聴器</title>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>補聴器の無料トライアル実施中！</h1>
+        <h2>いつまでも健康な身体でいたい・・・<br>そんなあなたの願いを叶えます。</h2>
+        <img src="img/TEL-woman1.png">
+      </div>
+    </header>
+    <div class="contents">
+      <div class="container">
+        <h3>このような悩みはございませんか？</h3>
+        <ul>
+          <li>最近聞き返すことが多くなった</li>
+          <li>電話の声が聞き取りにくい</li>
+          <li>耳が遠くなっていると感じることがある</li>
+          <li>特に外出時に聞こえづらい</li>
+        </ul><br><br>
+        <p>統計によると、<span>50代以上で40%を超える人</span>が、このような悩みを抱えています。</p>
+        <p>そのような悩みを抱える人を一人でも多く救いたい、<br>そんな思いで、今回、補聴器の無料トライアルを行うことに決めました。</p>
+        <h3>実際のところどうなのでしょうか？</h3>
+        <p>下のデータをご覧ください。</p>
+        <img src="img/image1.png">
+        <p class="right">（JapanTrak 2018 調査報告より引用）</p>
+        <img src="img/image2.png">
+        <p class="right">（JapanTrak 2018 調査報告より引用）</p>
+        <img src="img/image3.png">
+        <p class="right">（JapanTrak 2018 調査報告より引用）</p><br>
+        <p>データを見てもわかる通り、<br>補聴器を利用した人の<span>約90%</span>が生活の質が上がった、と言っています。</p><br>
+        <p>最初は不安もあるかもしれません。</p>
+        <p>ですが、一人一人親身に相談に乗っておりますので、ご安心ください。</p>
+        <h3>無料トライアルお申し込みの流れ</h3>
+        <p>１、下の申し込みフォームに記入する。</p>
+        <p>２、こちらから電話して、ご相談にお乗りします。</p>
+        <h3>申し込みフォーム</h3>
+        <div class="content">
+        <form action="confirm.php" method="post" name="form" onsubmit="return validate()">
+                  <p>お申し込み内容をご入力の上、「確認画面へ」ボタンをクリックしてください。</p>
+                  <div>
+                      <div class="content2">
+                          <label>お名前<span>必須</span></label>
+                          <input class="input1" type="text" name="name" placeholder="例）山田太郎" value="">
+                      </div>
+                      <div class="content2">
+                          <label>年齢<span>必須</span></label>
+                          <input class="input1" type="text" name="years" placeholder="例）60" value="">
+                      </div>
+                      <div class="content2">
+                          <label>メールアドレス<span>必須</span></label>
+                          <input class="input1" type="text" name="email" placeholder="例）guest@example.com" value="">
+                      </div>
+                      <div class="content2">
+                          <label>電話番号<span>必須</span></label>
+                          <input class="input1" type="text" name="tel" placeholder="例）0000000000" value="">
+                      </div>
+                      <div class="content2">
+                          <label>郵便番号<span>必須</span></label>
+                          <input class="input1" type="text" name="yubin" placeholder="例）0000000" value="">
+                      </div>
+                      <div class="content2">
+                          <label>補聴器の装用経験がありますか<span>必須</span></label>
+                          <input class="input2" type="radio" name="used" value="あり" checked> あり
+                          <input class="input2" type="radio" name="used" value="なし"> なし
+                      </div>
+                      <div class="content2">
+                          <label>ご使用されるお客様はどなたでしょうか<span>必須</span></label>
+                          <input class="input1" type="text" name="using" placeholder="例）自分" value="">
+                      </div>
+                  </div><br>
+                  <div class="btn">
+                    <button class="button" type="submit">お申し込みはこちら</button>
+                  </div>
+                </form>
+              </div><br>
+      </div>
+    </div>
+  </body>
+</html>
